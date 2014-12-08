@@ -1,0 +1,184 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Add	test/src/main/scala/OAT.scala	/^  def Add(lhs: IEval, rhs: IEval): IEval = {$/;"	m
+Add	test/src/main/scala/OAT.scala	/^  def Add(lhs: IShow, rhs: IShow): IShow = {$/;"	m
+Add	test/src/main/scala/OAT.scala	/^  def Add(lhs: T, rhs: T): T$/;"	m
+Add	test/src/main/scala/OAT.scala	/^trait Add extends Exp {$/;"	t
+AlgExp	test/src/main/scala/OAT.scala	/^trait AlgExp[T] {$/;"	t
+AlgExpEval	test/src/main/scala/OAT.scala	/^object AlgExpEval extends AlgExpEval$/;"	c
+AlgExpEval	test/src/main/scala/OAT.scala	/^trait AlgExpEval extends AlgExp[IEval] {$/;"	t
+AlgExpShow	test/src/main/scala/OAT.scala	/^object AlgExpShow extends AlgExpShow$/;"	c
+AlgExpShow	test/src/main/scala/OAT.scala	/^trait AlgExpShow extends AlgExp[IShow] {$/;"	t
+Algebra	library/src/main/scala/library.scala	/^trait Algebra[F[_]] {$/;"	t
+Exp	test/src/main/scala/OAT.scala	/^trait Exp$/;"	t
+ExpComb	test/src/main/scala/OAT.scala	/^object ExpComb extends Algebra[AlgExp] {$/;"	c
+IEval	test/src/main/scala/OAT.scala	/^trait IEval {$/;"	t
+IShow	test/src/main/scala/OAT.scala	/^trait IShow {$/;"	t
+IntValue	test/src/main/scala/OAT.scala	/^trait IntValue extends Value {$/;"	t
+LiftDecorate	library/src/main/scala/library.scala	/^class LiftDecorate[A](action: A => A) extends TLifter[A, Any] {$/;"	c
+Lit	test/src/main/scala/OAT.scala	/^  def Lit(v: Int): IEval = {$/;"	m
+Lit	test/src/main/scala/OAT.scala	/^  def Lit(v: Int): IShow = {$/;"	m
+Lit	test/src/main/scala/OAT.scala	/^  def Lit(v: Int): T$/;"	m
+Lit	test/src/main/scala/OAT.scala	/^trait Lit extends Exp {$/;"	t
+OAT	test/src/main/scala/OAT.scala	/^object OAT {$/;"	c
+QUM	test/src/main/scala/OAT.scala	/^class QUM {$/;"	c
+TLifter	library/src/main/scala/library.scala	/^trait TLifter[A, B] {$/;"	t
+TestTT	test/src/main/scala/OAT.scala	/^    class TestTT[T](val b: T) {$/;"	c
+Value	test/src/main/scala/OAT.scala	/^trait Value$/;"	t
+a1	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val a1 = mkConstructorParam(cnstr3, "a1", f1tpe, true)$/;"	l
+a1sym	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val a1sym = symbol.newMethod(TermName("alg1"),$/;"	l
+a2	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val a2 = mkConstructorParam(cnstr3, "a2", f2tpe, true)$/;"	l
+a2sym	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val a2sym = symbol.newMethod(TermName("alg2"),$/;"	l
+alg1	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val alg1 = typed {$/;"	l
+alg1	test/src/main/scala/OAT.scala	/^      val alg1 = a1$/;"	l
+alg2	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val alg2 = typed {$/;"	l
+alg2	test/src/main/scala/OAT.scala	/^      val alg2 = a2$/;"	l
+algebra	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val algebra = getClassByName(arg)$/;"	l
+app	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^        val app = tpe match {$/;"	l
+apply	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                val apply = mkApply(slct, $/;"	l
+apply	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val apply = mkConstructorCall(mkThisSelect(msymb, $/;"	l
+b	test/src/main/scala/OAT.scala	/^    val b = ExpComb.merge(lifter, AlgExpEval, AlgExpShow)$/;"	l
+basePkg	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^  def basePkg = "ch.usi.inf.l3.oa"$/;"	m
+beforeFinder	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^  val beforeFinder = "typer"$/;"	l
+build	project/Build.scala	/^object build extends Build {$/;"	c
+c	test/src/main/scala/OAT.scala	/^    val c = ExpComb.decorator[IEval with IShow](b, (x) => {$/;"	l
+call	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^        val call = mkConstructorCall(Ident(clazz.symbol), $/;"	l
+ch.usi.inf.l3.oa	library/src/main/scala/quals.scala	/^package ch.usi.inf.l3.oa$/;"	p
+ch.usi.inf.l3.oa.explang	test/src/main/scala/OAT.scala	/^package ch.usi.inf.l3.oa.explang$/;"	p
+ch.usi.inf.l3.oa.library	library/src/main/scala/library.scala	/^package ch.usi.inf.l3.oa.library$/;"	p
+ch.usi.inf.l3.oa.plugin	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^package ch.usi.inf.l3.oa.plugin$/;"	p
+clazz	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^        val clazz = typed {$/;"	l
+clazz1	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val clazz1 = clazz.addTypeParam(tparam2).addTypeParam(tparam1)$/;"	l
+clazz2	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val clazz2 = clazz1.addParent(parent)$/;"	l
+clazzSymbol	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val clazzSymbol =$/;"	l
+clazzTree	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val clazzTree: ClassDef = {$/;"	l
+cnstr	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^              val cnstr = addParam(f1, cnstr2)$/;"	l
+cnstr	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val cnstr = addParam(lr, cnstr1)$/;"	l
+cnstr1	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^              val cnstr1 = mkConstructor(temp, Nil).addSuperConstructorCall(Nil, Nil)$/;"	l
+cnstr1	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val cnstr1 = addParam(a1, cnstr2)$/;"	l
+cnstr2	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^              val cnstr2 = addParam(f2, cnstr1)$/;"	l
+cnstr2	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val cnstr2 = addParam(a2, cnstr3)$/;"	l
+cnstr3	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val cnstr3 = $/;"	l
+compoundType	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            def compoundType = RefinedType(List(tpref1, $/;"	m
+compoundType	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            def compoundType = RefinedType(parents, newScope)$/;"	m
+ctpe	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val ctpe = ClassInfoType(parents, newScope, symbol)$/;"	l
+debug	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^  def debug(txt: => String): Unit = {$/;"	m
+decorator	library/src/main/scala/library.scala	/^  def decorator[A](parent: F[A], action: A => A): F[A] = {$/;"	m
+defdef	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val defdef = typed {$/;"	l
+empty	library/src/main/scala/library.scala	/^  def empty: F[Any]$/;"	m
+empty	library/src/main/scala/quals.scala	/^  class empty(x: String) extends StaticAnnotation$/;"	c
+empty	test/src/main/scala/OAT.scala	/^  def empty = EmptyAlg$/;"	m
+emptyAlgebra	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val emptyAlgebra = module.addParent(parent)$/;"	l
+emptyAnno	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^  def emptyAnno = s"${basePkg}.quals.empty"$/;"	m
+emptyObject	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^        val emptyObject = rootMirror.getModuleByName(TermName(empty))$/;"	l
+eval	test/src/main/scala/OAT.scala	/^      def eval(): Value = new IntValue {val value = v}$/;"	m
+eval	test/src/main/scala/OAT.scala	/^      def eval(): Value = {$/;"	m
+eval	test/src/main/scala/OAT.scala	/^  def eval(): Value$/;"	m
+exp	test/src/main/scala/OAT.scala	/^    val exp = b.Add(b.Lit(1), b.Lit(2))$/;"	l
+exp1	test/src/main/scala/OAT.scala	/^    val exp1 = c.Add(c.Lit(1), c.Lit(2))$/;"	l
+exprAlg	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val exprAlg = getClassByName(galg)$/;"	l
+f1	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^              val f1 = mkConstructorParam(cnstr1, "f1", p1.toType, true)$/;"	l
+f1tpe	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val f1tpe = mergerTrait.info.member(TermName("alg1")).toType match {$/;"	l
+f2	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^              val f2 = mkConstructorParam(cnstr1, "f2", p2.toType, true)$/;"	l
+f2tpe	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val f2tpe = mergerTrait.info.member(TermName("alg2")).toType match {$/;"	l
+fmembers	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^              val fmembers = generateDelegates(fst.info.members.toList,$/;"	l
+fst	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val fst = getClassByName(f)$/;"	l
+fstAlg	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val fstAlg = mkAbstractField(symbol, "alg1", $/;"	l
+generateDelegates	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^  private def generateDelegates(members: List[Symbol], $/;"	m
+isIn	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^  def isIn(x: Symbol, members: List[Tree]): Boolean = {$/;"	m
+lhs	test/src/main/scala/OAT.scala	/^  def lhs: Exp $/;"	m
+library	project/Build.scala	/^  lazy val library = Project($/;"	l
+lift	library/src/main/scala/library.scala	/^  def lift(x: A, y: Any) = action(x)$/;"	m
+lift	library/src/main/scala/library.scala	/^  def lift(x: A, y: B): A with B$/;"	m
+lift	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val lift = typed {$/;"	l
+liftMethod	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val liftMethod = lifter.info.member(TermName("lift"))$/;"	l
+lifter	library/src/main/scala/quals.scala	/^  class lifter(x: String, y: String) extends StaticAnnotation$/;"	c
+lifter	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^  private val lifter = getClassByName(lifterName)$/;"	l
+lifter	test/src/main/scala/OAT.scala	/^      val lifter = f$/;"	l
+lifter	test/src/main/scala/OAT.scala	/^    val lifter = useLifter[IEval, IShow]("ch.usi.inf.l3.oa.explang.LiftEP")$/;"	l
+lifterAnno	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^  def lifterAnno = s"${basePkg}.quals.lifter"$/;"	m
+lifterField	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val lifterField = mkAbstractField(symbol, "lifter", lifterType)$/;"	l
+lifterName	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^  def lifterName = s"${basePkg}.library.TLifter"$/;"	m
+lifterObject	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val lifterObject = module.addParent(parent)$/;"	l
+lifterObject	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^        val lifterObject = rootMirror.getModuleByName(TermName(lifter))$/;"	l
+lifterTraitTpe	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val lifterTraitTpe = getClassByName(lifterName).toType$/;"	l
+lifterType	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val lifterType = appliedType(lifter.toType, List(tpref1, tpref2))$/;"	l
+liftertpe	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val liftertpe = appliedType(lifterTraitTpe, List(tpe1, tpe2))$/;"	l
+lr	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val lr = mkConstructorParam(cnstr3, "lr", liftertpe, true)$/;"	l
+lsym	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val lsym = symbol.newMethod(TermName("lifter"),$/;"	l
+m	test/src/main/scala/OAT.scala	/^  def m: AnyRef = {$/;"	m
+main	test/src/main/scala/OAT.scala	/^  def main(args: Array[String]): Unit = {$/;"	m
+members	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val members = algebra.info.members.toList.filter((x) => {$/;"	l
+members	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val members = exprAlg.info.members.toList.filter((x) => {$/;"	l
+merge	library/src/main/scala/library.scala	/^  def merge[A, B](mix: TLifter[A, B], a1: F[A], a2: F[B]): F[A with B]$/;"	m
+merge	test/src/main/scala/OAT.scala	/^  def merge[A, B](f: TLifter[A, B], a1: AlgExp[A], a2: AlgExp[B]) = {$/;"	m
+mergeWith	library/src/main/scala/quals.scala	/^  def mergeWith[T >: Null <: AnyRef](alg: String): T = null$/;"	m
+merger	library/src/main/scala/quals.scala	/^  class merger(x: String) extends StaticAnnotation$/;"	c
+mergerAnno	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^  def mergerAnno = s"${basePkg}.quals.merger"$/;"	m
+mergerTrait	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val mergerTrait = getClassByName(merger)$/;"	l
+msg	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                    val msg = $/;"	l
+msg	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                val msg = "Method lifter should take exactly two parameters"$/;"	l
+msg	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^              val msg = "The two arguments of @lifter must be different"$/;"	l
+msymb	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val msymb = module.symbol.moduleClass$/;"	l
+mthd	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                val mthd = msymb.newMethod(x.name.toTermName, $/;"	l
+mthd	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                val mthd = symbol.newMethod(x.name.toTermName, $/;"	l
+mthd	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^              val mthd = msymb.newMethod(liftMethod.name.toTermName, $/;"	l
+mthd	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^      val mthd = clazzSymbol.newMethod(x.name.toTermName, $/;"	l
+name	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^  val name: String = "object-algebra"$/;"	l
+nbody	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^              val nbody = (cnstr :: fmembers) ++ smembers$/;"	l
+nbody	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val nbody = fstAlg :: sndAlg :: lifterField :: members$/;"	l
+nparams	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                    val nparams = List(p1, p2)$/;"	l
+nparams	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                    val nparams = params.map((y) => {$/;"	l
+nparams	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val nparams = params.map((y) => {$/;"	l
+nret	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                    val nret = compoundType$/;"	l
+nret	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                    val nret = definitions.AnyRefClass.toType $/;"	l
+ntree	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^    val ntree = tree match {$/;"	l
+p1	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                    val p1 = mthd.newSyntheticValueParam(fst.toType, $/;"	l
+p1	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                val p1 = mkApply(Select(thsFstAlg,$/;"	l
+p2	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                    val p2 = mthd.newSyntheticValueParam(snd.toType, $/;"	l
+p2	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                val p2 = mkApply(Select(thsSndAlg,$/;"	l
+paradiseVersion	project/Build.scala	/^  lazy val paradiseVersion = "2.0.0"$/;"	l
+parent	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val parent = appliedType(algebra, $/;"	l
+parent	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val parent = appliedType(exprAlg, List(compoundType))$/;"	l
+parent	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val parent = appliedType(lifter, List(fst.toType, snd.toType))$/;"	l
+parents	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val parents = List(definitions.AnyRefClass.toType,$/;"	l
+parents	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val parents = List(definitions.AnyRefClass.toType,$/;"	l
+plugin	project/Build.scala	/^  lazy val plugin =  Project($/;"	l
+ptpe	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                        val ptpe = compoundType$/;"	l
+ptpe	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                        val ptpe = definitions.AnyRefClass.toType$/;"	l
+quals	library/src/main/scala/quals.scala	/^object quals {$/;"	c
+rhs	test/src/main/scala/OAT.scala	/^  def rhs: Exp $/;"	m
+root	project/Build.scala	/^  lazy val root = Project($/;"	l
+sharedSettings	project/Build.scala	/^  lazy val sharedSettings = Seq($/;"	l
+show	test/src/main/scala/OAT.scala	/^      def show: String = s"${lhs.show} + ${rhs.show}"$/;"	m
+show	test/src/main/scala/OAT.scala	/^      def show: String = v.toString$/;"	m
+show	test/src/main/scala/OAT.scala	/^  def show: String$/;"	m
+slct	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                val slct = Select(thsLifter,$/;"	l
+slct	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^        val slct = Select(mkThisSelect(clazzSymbol, field.name.toTermName), $/;"	l
+smembers	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^              val smembers = generateDelegates(snd.info.members.toList,$/;"	l
+snd	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val snd = getClassByName(s)$/;"	l
+sndAlg	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val sndAlg = mkAbstractField(symbol, "alg2", $/;"	l
+sversion	project/Build.scala	/^  lazy val sversion = "2.11.1"$/;"	l
+symbol	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val symbol = clazz.symbol$/;"	l
+symbol	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val symbol = ddef.symbol.newClassSymbol(TypeName("$anon"), $/;"	l
+temp	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^              val temp = ClassDef(Modifiers(Flag.SYNTHETIC), $/;"	l
+temp	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^          val temp = ClassDef(Modifiers(Flag.FINAL),$/;"	l
+test	project/Build.scala	/^  lazy val test = Project ($/;"	l
+thsFstAlg	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                val thsFstAlg = typed {$/;"	l
+thsLifter	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                val thsLifter = typed {$/;"	l
+thsSndAlg	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                val thsSndAlg = typed {$/;"	l
+tpe	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^                val tpe = x.info match {$/;"	l
+tpe	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val tpe = ClassInfoType(parents, newScope, clazzSymbol)$/;"	l
+tpref1	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val tpref1 = fskolem.toType$/;"	l
+tpref2	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^            val tpref2 = sskolem.toType$/;"	l
+transform	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^  def transform(tree: Tree): Tree = {$/;"	m
+useEmpty	library/src/main/scala/quals.scala	/^  def useEmpty[T >: Null <: AnyRef](empty: String): T = null$/;"	m
+useLifter	library/src/main/scala/quals.scala	/^  def useLifter[T, K](lifter: String): TLifter[T, K] = null$/;"	m
+v1	test/src/main/scala/OAT.scala	/^        val v1 = lhs.eval$/;"	l
+v2	test/src/main/scala/OAT.scala	/^        val v2 = rhs.eval$/;"	l
+value	test/src/main/scala/OAT.scala	/^  def value: Int$/;"	m
+verbose	plugin/src/main/scala/ObjectAlgebraPlugin.scala	/^  var verbose = false$/;"	l

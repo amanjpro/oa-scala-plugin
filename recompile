@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# rm -r ~/.ivy2/cache/ch.usi.inf.l3/plugin_2.11
+sbt plugin/publishLocal test/clean test/compile
+

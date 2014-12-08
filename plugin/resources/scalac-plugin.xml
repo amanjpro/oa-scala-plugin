@@ -1,0 +1,4 @@
+<plugin>
+  <name>oa</name>
+  <classname>ch.usi.inf.l3.oa.plugin.ObjectAlgebraPlugin</classname>
+</plugin>
