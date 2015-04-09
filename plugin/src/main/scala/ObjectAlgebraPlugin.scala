@@ -7,7 +7,7 @@ package ch.usi.inf.l3.oa.plugin
 
 
 import ch.usi.inf.l3._
-import lombrello.neve.NeveDSL._
+import piuma.neve.NeveDSL._
 import oa.library._
 import oa.quals._
 
@@ -155,7 +155,7 @@ import oa.quals._
             debug(s"The compound type of ${lifterObject.symbol} is ${compoundType}")
 
 
-            // TOOD: Can we have ``implement with this signature'' in Lombrello?
+            // TOOD: Can we have ``implement with this signature'' in Piuma?
             val (methodSymbol, p1, p2) = {
               debug(s"Implementing method ${liftMethod}")
               val mthd = msymb.newMethod(liftMethod.name.toTermName, 

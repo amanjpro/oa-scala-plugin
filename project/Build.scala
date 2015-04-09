@@ -15,8 +15,8 @@ object build extends Build {
 
   lazy val sharedSettings = Seq(
     scalaVersion := "2.11.1",
-    resolvers += "Lombrello's Repo" at 
-          "http://inf.usi.ch/phd/sherwany/repos/lombrello",
+    resolvers += "Piuma's Repo" at 
+          "http://inf.usi.ch/phd/sherwany/repos/piuma",
     resolvers += Resolver.sonatypeRepo("snapshots"),
     resolvers += Resolver.sonatypeRepo("releases"),
     organization := "ch.usi.inf.l3"
@@ -53,7 +53,7 @@ object build extends Build {
     resourceDirectory in Compile <<= baseDirectory(_ / "resources"),
 
     libraryDependencies ++= 
-      Seq("ch.usi.inf.l3" %% "lombrello" % "0.1-SNAPSHOT"),
+      Seq("ch.usi.inf.l3" %% "piuma" % "0.1-SNAPSHOT"),
 
     addCompilerPlugin("org.scalamacros" % "paradise" % 
       paradiseVersion cross CrossVersion.full)
